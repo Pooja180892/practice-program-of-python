@@ -33,4 +33,12 @@ f = 1
 while num > 0:
     f = f * num
     num -= 1
+    
+    Python Program to Check if binary representation is a palindrome
+    num = int(input('enter the no = '))
+binary = bin(num)
+binary = binary[2:]
+if binary == (binary[::-1]):
+    print('palindrom')
+else:print('not palindrom')
 print('factorial of no. is =',f)
