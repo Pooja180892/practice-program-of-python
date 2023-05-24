@@ -111,3 +111,4 @@ for i in range(len(st_no)):
     else:odd += int(st_no[i])
 difference = even - odd
 print('Difference between sums of odd and even digits = ',difference)
+========================================================================================================
